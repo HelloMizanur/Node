@@ -19,5 +19,4 @@ router.post('/circle',(req,res)=>{
     const result = (Math.PI*Math.sqrt(radius));
     res.send(`Here is the result : ${result.toFixed(2)}`);
 });
-
 module.exports = router;
